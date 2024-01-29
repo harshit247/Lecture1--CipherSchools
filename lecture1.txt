@@ -1,0 +1,10 @@
+git config --global user.name "harshit"
+
+git config --global user.email "pandeyharshit505@gmail.com"
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/HP505/week1-MERN-CipherSchools.git
+git push -u origin main
